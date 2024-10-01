@@ -5,7 +5,6 @@ import Header from '../component/Header'
 import Login from '../component/Login'
 import Restaurants from '../component/Restaurants'
 import Register from '../component/Register'
-import FilteredRes from '../component/FilteredRes'
 
 
 const Content=()=>{
@@ -29,12 +28,8 @@ const Routing = () => {
            <Route path='/register' element={<Register />}/>
     <Route path="/content" element={<Content/>}>
            
-           <Route path="restaurants" element={<Restaurants/>} >
-                      <Route path=':category' element={<FilteredRes/>} />
-           </Route>
-                 
-          
-    </Route>
+           <Route path="restaurants/:category" element={<Restaurants/>}  / >
+  </Route>
 
    </Routes>
   )

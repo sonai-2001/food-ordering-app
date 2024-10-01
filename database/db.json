@@ -33,7 +33,7 @@
     {
       "id": "3",
       "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Pizzas.png",
-      "title": "Pizzas"
+      "title": "Pizza"
     },
     {
       "id": "4",
@@ -126,7 +126,7 @@
       "avgRating": 4.7,
       "costForTwo": "₹200 for two",
       "name": "The Belgian Waffle Co.",
-      "category": "Top Rated",
+      "category": "toprated",
       "cuisines": [
         "Desserts"
       ]
@@ -137,7 +137,7 @@
       "avgRating": 4.5,
       "costForTwo": "₹200 for two",
       "name": "Faasos - Wraps, Rolls & Shawarma",
-      "category": "Top Rated",
+      "category": "toprated",
       "cuisines": [
         "North Indian",
         "Wraps",
@@ -150,7 +150,7 @@
       "avgRating": 4.5,
       "costForTwo": "₹350 for two",
       "name": "Subway",
-      "category": "Top Rated",
+      "category": "toprated",
       "cuisines": [
         "Sandwich"
       ]
@@ -161,7 +161,7 @@
       "avgRating": 3.8,
       "costForTwo": "₹400 for two",
       "name": "Pastas By Pizza Hut",
-      "category": "Top Rated",
+      "category": "toprated",
       "cuisines": [
         "Italian",
         "Pasta"
@@ -173,7 +173,7 @@
       "avgRating": 4.3,
       "costForTwo": "₹300 for two",
       "name": "Wow! Chicken By Wow! Momo",
-      "category": "Top Rated",
+      "category": "toprated",
       "cuisines": [
         "Momos",
         "Asian"
@@ -185,7 +185,7 @@
       "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/55614156379db324675650213bb544a8",
       "areaName": "Garia",
       "costForTwo": "₹300 for two",
-      "category": "biyani",
+      "category": "Biryani",
       "cuisines": [
         "Biryani",
         "Mughlai",
@@ -198,7 +198,7 @@
       "name": "A1 Ajooba Biryani center",
       "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/tra8lqisqtqnyztg0aun",
       "costForTwo": "₹150 for two",
-      "category": "biyani",
+      "category": "Biryani",
       "cuisines": [
         "Biryani",
         "North Indian",
@@ -211,7 +211,7 @@
       "name": "Kolkata Royal Biryani House",
       "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/tra8lqisqtqnyztg0aun",
       "costForTwo": "₹300 for two",
-      "category": "biyani",
+      "category": "Biryani",
       "cuisines": [
         "Biryani",
         "North Indian",
@@ -224,7 +224,7 @@
       "name": "Simla Arsolan Biriyani",
       "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sot5dq2math6dttr1idx",
       "costForTwo": "₹300 for two",
-      "category": "biyani",
+      "category": "Biryani",
       "cuisines": [
         "Biryani",
         "Beverages",
@@ -236,7 +236,7 @@
       "id": "13",
       "name": "The Biryani Inc. By EatVerse",
       "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/55614156379db324675650213bb544a8",
-      "category": "biyani",
+      "category": "Biryani",
       "costForTwo": "₹300 for two",
       "cuisines": [
         "Biryani",
@@ -249,7 +249,7 @@
       "id": "14",
       "name": "Haji Saheb Park Circus",
       "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/bedbbaa7543c3d70d7a01b02046ee86e",
-      "category": "biyani",
+      "category": "Biryani",
       "costForTwo": "₹800 for two",
       "cuisines": [
         "Mughlai",
@@ -262,7 +262,7 @@
       "id": "15",
       "name": "A1 Haji Biryani and Kebabs",
       "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fdbys6rewpjjrqn57zxv",
-      "category": "biyani",
+      "category": "Biryani",
       "costForTwo": "₹150 for two",
       "cuisines": [
         "Biryani",
@@ -276,7 +276,7 @@
       "name": "Rayyan Biryani",
       "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/0752331bfba8bfba835af159752076f5",
       "costForTwo": "₹200 for two",
-      "category": "biyani",
+      "category": "Biryani",
       "cuisines": [
         "Biryani",
         "Mughlai"
@@ -289,7 +289,7 @@
       "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/9/17/6ec931ab-fed2-4004-ab44-df768f5e8011_23944.jpg",
       "avgRating": 4.6,
       "costForTwo": "₹400 for two",
-      "category": "pizza",
+      "category": "Pizza",
       "cuisines": [
         "Pizzas",
         "Italian",
@@ -303,7 +303,7 @@
       "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/7/18/1e758fd4-0981-4f7f-900a-8ce02714a4b9_769456.jpg",
       "avgRating": 4.4,
       "costForTwo": "₹350 for two",
-      "category": "pizza",
+      "category": "Pizza",
       "cuisines": [
         "Pizzas"
       ]
@@ -313,7 +313,7 @@
       "name": "Pizza Mahal",
       "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/a78906f5f7c87b7afd52c57db05a3568",
       "costForTwo": "₹350 for two",
-      "category": "pizza",
+      "category": "Pizza",
       "cuisines": [
         "Italian",
         "Pizzas",
@@ -327,7 +327,7 @@
       "name": "Olio - The Wood Fired Pizzeria",
       "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/3/12/e7d33ad6-afcd-45b4-9d9e-31c64084ff2a_bf73d399-0434-48fc-9bc4-7b19e183889e.jpg_compressed",
       "costForTwo": "₹300 for two",
-      "category": "pizza",
+      "category": "Pizza",
       "cuisines": [
         "Pizzas",
         "Pastas",
@@ -342,7 +342,7 @@
       "name": "Crusto's - Cheese Burst Pizza",
       "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/3/12/a8e1dc17-4ff1-4115-88aa-8cf97355258f_1b798664-f078-4ed2-a3f2-78e22a789608.jpg_compressed",
       "costForTwo": "₹300 for two",
-      "category": "pizza",
+      "category": "Pizza",
       "cuisines": [
         "Pizzas",
         "Pastas",
@@ -355,7 +355,7 @@
     {
       "id": "22",
       "name": "Food Planet",
-      "category": "pizza",
+      "category": "Pizza",
       "imageId": "bhxuwfvsjnnmqritkt1m",
       "costForTwo": "₹400 for two",
       "cuisines": [
