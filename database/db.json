@@ -85,7 +85,7 @@
     {
       "id": "1",
       "name": "Domino's Pizza",
-      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/9/17/6ec931ab-fed2-4004-ab44-df768f5e8011_23944.jpg",
+      "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/9/17/6ec931ab-fed2-4004-ab44-df768f5e8011_23944.jpg",
       "avgRating": 4.6,
       "costForTwo": "₹400 for two",
       "category": "toprated",
@@ -94,12 +94,56 @@
         "Italian",
         "Pastas",
         "Desserts"
+      ],
+      "dishTypes": [
+        {
+          "title": "Recommended",
+          "dishes": [
+            {
+              "name": "Cheese Volcano Peppy Paneer",
+              "price": 31900,
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/4/3ab84285-8164-4447-b534-f371913491c6_f91a0f02-a155-4a2a-8567-ae9d56ec5b2b.jpg",
+              "quantity": 1,
+              "id": "146117738",
+              "description": "Centre loaded with Molten Cheese & topped with peppy Paneer, Capsicum & Red Paprika\n*Contains non-edible container under the Pizza"
+            },
+            {
+              "price": 31900,
+              "description": "Centre loaded with Molten Cheese & topped with Onion, Capsicum, Tomato & Grilled Mushroom\n*Contains non-edible container under the Pizza",
+              "id": "146117742",
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg",
+              "name": "Cheese Volcano Farmhouse",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "title": "Party Combo",
+          "dishes": [
+            {
+              "description": "Medium Peppy Paneer + Medium Farmhouse + Garlic Bread + 2 Pepsi",
+              "id": "113676484",
+              "imageId": "4dfd02271e979bdcbed7737473d930c5",
+              "name": "Special Party for 4 (Veg) @Rs. 180 off",
+              "price": 95900,
+              "quantity": 1
+            },
+            {
+              "description": "Meal for 4: Regular Veg Extravaganza + Regular Indi Tandoori Paneer + Regular Farmhouse + Regular Veggie Paradise",
+              "id": "119164270",
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/31/99380be1-e010-42b9-ac5f-18eca2c4df13_8817bc9d-8a29-4e7e-ab1f-2be79a8a3441.jpg",
+              "name": "Pizza Party for 4 (Veg) @Rs. 180 Off",
+              "price": 99900,
+              "quantity": 1
+            }
+          ]
+        }
       ]
     },
     {
       "id": "2",
       "name": "Pizza Hut",
-      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/7/18/1e758fd4-0981-4f7f-900a-8ce02714a4b9_769456.jpg",
+      "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/7/18/1e758fd4-0981-4f7f-900a-8ce02714a4b9_769456.jpg",
       "avgRating": 4.4,
       "costForTwo": "₹350 for two",
       "category": "toprated",
@@ -110,7 +154,7 @@
     {
       "id": "3",
       "name": "KFC",
-      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/37dc9e37-386f-453b-a219-ffa2c154750b_351188.JPG",
+      "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/37dc9e37-386f-453b-a219-ffa2c154750b_351188.JPG",
       "avgRating": 4.5,
       "costForTwo": "₹400 for two",
       "category": "toprated",
@@ -300,7 +344,7 @@
     {
       "id": "18",
       "name": "Pizza Hut",
-      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/7/18/1e758fd4-0981-4f7f-900a-8ce02714a4b9_769456.jpg",
+      "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/7/18/1e758fd4-0981-4f7f-900a-8ce02714a4b9_769456.jpg",
       "avgRating": 4.4,
       "costForTwo": "₹350 for two",
       "category": "Pizza",
@@ -356,7 +400,7 @@
       "id": "22",
       "name": "Food Planet",
       "category": "Pizza",
-      "imageId": "bhxuwfvsjnnmqritkt1m",
+      "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/bhxuwfvsjnnmqritkt1m",
       "costForTwo": "₹400 for two",
       "cuisines": [
         "Pizzas",
@@ -368,5 +412,33 @@
     }
   ],
   "orders": [],
-  "cart": []
+  "cart": [
+    {
+      "id": "6e88",
+      "productId": "146117738",
+      "name": "Cheese Volcano Peppy Paneer",
+      "price": 31900,
+      "token": "f7cabaa5-f82e-4b4c-8738-a1d2bbab30dd",
+      "quantity": 1,
+      "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/4/3ab84285-8164-4447-b534-f371913491c6_f91a0f02-a155-4a2a-8567-ae9d56ec5b2b.jpg"
+    },
+    {
+      "id": "68ba",
+      "productId": "146117742",
+      "name": "Cheese Volcano Farmhouse",
+      "price": 31900,
+      "token": "f7cabaa5-f82e-4b4c-8738-a1d2bbab30dd",
+      "quantity": 1,
+      "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg"
+    },
+    {
+      "id": "ab25",
+      "productId": "113676484",
+      "name": "Special Party for 4 (Veg) @Rs. 180 off",
+      "price": 95900,
+      "token": "f7cabaa5-f82e-4b4c-8738-a1d2bbab30dd",
+      "quantity": 1,
+      "imageId": "4dfd02271e979bdcbed7737473d930c5"
+    }
+  ]
 }

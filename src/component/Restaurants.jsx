@@ -4,7 +4,7 @@ import Carousal from "./Carousal";
 import axiosinstance from "../api/axiosinstance";
 import { endpoints } from "../api/api-detail";
 import Swal from "sweetalert2";
-import { Container } from "react-bootstrap";
+import { Card, Col, Container, Row } from "react-bootstrap";
 
 const Restaurants = () => {
   const api = endpoints.dishes;
@@ -52,11 +52,42 @@ const Restaurants = () => {
 
       <div>
         {restaurants.length > 0 ? (
-          restaurants.map((res) => (
-            <div key={res.id}>
-              <h2>{res.name}</h2>
-            </div>
-          ))
+          <Container className="card-container">
+            {" "}
+            {/* Add custom class for margin-top */}
+            <Row className="g-4">
+              {" "}
+              {/* g-4 adds spacing between cards */}
+              {restaurants.map((card, index) => (
+               
+                  <Col xs={12} sm={6} md={4} lg={3} key={card.id}>
+                     <Link className="card-link" to={`${card.id}`}>
+                    {" "}
+                    {/* Responsive column sizes */}
+                    <Card className="custom-card h-100">
+                      {" "}
+                      {/* Apply custom CSS class */}
+                      <Card.Img
+                        variant="top"
+                        src={card.imageId}
+                        className="custom-card-img"
+                      />{" "}
+                      {/* Apply custom image class */}
+                      <Card.Body>
+                        <Card.Title>{card.name}</Card.Title>
+                        <Card.Text>{card.costForTwo}</Card.Text>
+                        <Card.Text>
+                          <strong>{card.avgRating} Rating</strong>
+                        </Card.Text>
+                        <Card.Text>{card.cuisines.join(" ,")}</Card.Text>
+                      </Card.Body>
+                    </Card>
+                    </Link>
+                  </Col>
+              
+              ))}
+            </Row>
+          </Container>
         ) : (
           <h2 className="text-center">
             {" "}

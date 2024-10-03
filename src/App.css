@@ -361,9 +361,354 @@
 
 }
 
+@media (max-width: 974px){
+  /* Mobile view */
+ .caraousal-item{
+  width: 90px;
+  height: 90px;
+ }
+}
+@media (max-width: 550px){
+  /* Mobile view */
+ .caraousal-item{
+  width: 70px;
+  height: 70px;
+ }
+}
+@media (max-width: 380px){
+  /* Mobile view */
+ .caraousal-item{
+  width: 60px;
+  height: 60px;
+ }
+}
+
+
+
 .caraousal-image{
 
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
+.card-container {
+  margin-top: 20px; /* Adds margin-top to the entire container */
+}
+
+.custom-card {
+  height: 100%; /* Ensures all cards take the full height of the container */
+  display: flex;
+  flex-direction: column;
+}
+.card-link{
+  text-decoration: none;
+}
+
+.custom-card-img {
+  height: 250px; /* Set fixed height for all images */
+  object-fit: cover; /* Ensures the image covers the set height without distortion */
+  width: 100%; /* Full width */
+}
+
+.custom-card-body {
+  flex-grow: 1; /* Ensures the card body takes up the remaining space */
+}
+
+
+.detail-page{
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.basic-details {
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.basic-details h1 {
+  font-size: 2rem; /* Large, bold font for the restaurant name */
+  color: #333; /* Dark text color for readability */
+  margin-bottom: 10px; /* Space below the title */
+  text-transform: capitalize; /* Ensure the name has proper capitalization */
+}
+
+.basic-details span {
+  display: block; /* Display cost and rating on a new line */
+  font-size: 1.2rem; /* Slightly smaller font for cost and rating */
+  color: #666; /* Lighter text color for cost and rating */
+}
+
+.basic-details span::before {
+  content: '•'; /* Add a separator dot */
+  margin: 0 8px; /* Space around the dot */
+}
+
+.basic-details span:first-child::before {
+  content: ''; /* Remove the dot before the first item */
+}
+.description-text {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 15px;
+  padding: 0 10px; /* Add padding for some spacing */
+  line-height: 1.6; /* Increased line height for better readability */
+  font-style: italic; /* Italic style for a softer look */
+  font-family: 'Georgia', serif; /* Use a serif font for elegance */
+}
+
+.description-text::before {
+  content: '🍽️ '; /* Add a small food icon before the text */
+  font-size: 1.5rem;
+  vertical-align: middle; /* Align the icon properly */
+}
+
+.description-text::after {
+  content: ' 🛵'; /* Add a delivery icon at the end of the text */
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+  .basic-details h1 {
+    font-size: 1.8rem; /* Slightly smaller title */
+  }
+
+  .basic-details span {
+    font-size: 1rem; /* Adjust cost and rating font */
+  }
+
+  .description-text {
+    font-size: 1rem; /* Smaller description font */
+  }
+}
+
+/* For mobile screens (576px and below) */
+@media (max-width: 576px) {
+  .basic-details h1 {
+    font-size: 1.5rem; /* Further reduce title size */
+  }
+
+  .basic-details span {
+    font-size: 0.9rem; /* Reduce font for cost and rating */
+  }
+
+  .description-text {
+    font-size: 0.9rem; /* Reduce description text font */
+    padding: 0 5px; /* Reduce padding for smaller screens */
+  }
+
+  .description-text::before, .description-text::after {
+    font-size: 1.2rem; /* Adjust icon size for mobile */
+  }
+}
+.items-container {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .items-container {
+    width: 90%; /* Slightly larger for smaller screens */
+  }
+}
+
+@media (max-width: 400px) {
+  .items-container {
+    width: 100%; /* Full width on mobile devices */
+  }
+}
+
+.item-types {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .item-types {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: flex-start; /* Align to the left */
+  }
+}
+
+.basic-detail-item {
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  .basic-detail-item {
+    width: 100%; /* Full width on smaller screens */
+    margin-bottom: 10px; /* Add spacing between text and image */
+  }
+}
+
+.basic-detail-item h2 {
+  font-size: 1.5rem; /* Adjust heading size for different screens */
+}
+
+.basic-detail-item span {
+  font-size: 1.1rem;
+}
+
+.basic-detail-item p {
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.item-image {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+
+.item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.add-btn {
+  position: absolute;
+  bottom: -10px; /* Adjusts how far from the bottom the button is */
+  left: 50%;
+  transform: translateX(-50%); /* Centers the button horizontally */
+  background-color: white;
+  color: rgb(12, 231, 12);
+  font-weight: 500;
+  border: none;
+  padding: 8px 16px; /* Adjusted padding for better responsiveness */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #f1f1f1;
+}
+.add-btn:disabled {
+  background-color: #d3d3d3; /* Light gray */
+  color: #7a7a7a; /* Gray text */
+  cursor: not-allowed;
+}
+
+.accordian-heading-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordian-heading-button h3 {
+  font-size: 1.5rem;
+}
+
+.accordian-heading-button span {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .accordian-heading-button h3 {
+    font-size: 1.3rem; /* Slightly smaller text on smaller screens */
+  }
+  
+  .accordian-heading-button span {
+    font-size: 1.1rem;
+  }
+}
+
+/* Ensuring the container is centered with a max-width for larger screens */
+.cart-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.cart-items {
+  margin-bottom: 20px;
+}
+
+.cart-actions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.action-button {
+  margin: 5px 0;
+}
+
+.cart-item {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item-details {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item-image {
+  width: 80px;
+  height: auto;
+}
+
+.cart-item-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.cart-summary {
+  margin-top: 20px;
+}
+
+/* For smaller devices */
+@media (max-width: 768px) {
+  .cart-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cart-item-details {
+    margin-bottom: 10px;
+  }
+
+  .cart-item-actions {
+    justify-content: flex-start;
+  }
+
+  .cart-summary {
+    margin-top: 40px;
+  }
+
+  .cart-actions {
+    flex-direction: column;
+  }
+}
+
+/* For larger screens */
+@media (min-width: 769px) {
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cart-summary {
+    margin-top: 0;
+  }
+}
+
+

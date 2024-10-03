@@ -1181,3 +1181,57 @@ uuidv4();
                     }
                   }
                 ],
+
+
+                /* .carausal-container{
+  height: 10vh;
+  margin-top: 10vh;} */
+.caraousal-heading{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.caraousal-arrow {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.left-arrow, .right-arrow {
+  background-color: #f0f0f0; /* Button background color */
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  width: 40px; /* Button size */
+  height: 40px; 
+  border-radius: 50%; /* Make the buttons rounded */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+  background-color: #007bff; /* Hover background color */
+  color: white; /* Hover arrow color */
+}
+.caraousal-item-container{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.caraousal-item{
+   width: 150px;
+   height: 150px;
+   border-radius: 100%;
+   flex-shrink: 0;
+
+}
+
+.caraousal-image{
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
