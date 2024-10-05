@@ -1,15 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { dishImagePre } from "../utils/Image";
 import axiosinstance from "../api/axiosinstance";
 import { endpoints } from "../api/api-detail";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
+import cartLengthContext from "../utils/cartLengthContext";
 
 const SingleItem = ({ dish }) => {
   const api = endpoints.cart;
   const navigate = useNavigate();
   console.log(dish.id);
   const [cart, setCart] = useState(null);
+  const{cartLength,updateCartLength}=useContext(cartLengthContext)
 
   const getCarts = async () => {
     try {
@@ -53,6 +55,7 @@ const SingleItem = ({ dish }) => {
       const response = await axiosinstance.post(api, obj);
       console.log(response);
       if (response.status === 201) {
+        updateCartLength([...cartLength,obj])
         Swal.fire({
           title: "Success",
           text: "Item added to cart",

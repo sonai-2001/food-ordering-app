@@ -4,6 +4,7 @@ import { Button, Form, Row, Col, Container, Spinner } from "react-bootstrap";
 import axiosinstance from "../api/axiosinstance";
 import { endpoints } from "../api/api-detail";
 import Swal from "sweetalert2";
+import Loader from "./Loader"
 
 const AccountPage = () => {
   const { register, handleSubmit, setValue, reset } = useForm();
@@ -149,6 +150,11 @@ const onPasswordSubmit = async (data) => {
 
   return (
     <Container fluid className=" account-page">
+      
+      {
+        loading && <Loader/>
+      }
+      
       <h2 className="mb-4">My Account</h2>
       <Form onSubmit={handleSubmit(onSubmit)}>
         <Row>

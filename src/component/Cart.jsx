@@ -16,6 +16,7 @@ import Loader from "./Loader";
 import { dishImagePre } from "../utils/Image";
 import cartLengthContext from "../utils/cartLengthContext";
 import cartItemsContext from "../utils/cartItemsContext";
+import CartSkeleton from "./CartSkeleton";
 
 const Cart = () => {
   const [cartItems, setCartItems] = useState(null);
@@ -27,7 +28,7 @@ const Cart = () => {
     getCarts();
   }, []);
 
-  const{updateCartLength}=useContext(cartLengthContext)
+  const{updateCartLength,cartLength}=useContext(cartLengthContext)
  const{setItems}= useContext(cartItemsContext)
 
   const handleBuyNow = () => {
@@ -154,7 +155,7 @@ const Cart = () => {
     );
 
   if (!cartItems) {
-    return <div>Loading...</div>;
+    return <CartSkeleton/>;
   }
 
   return (

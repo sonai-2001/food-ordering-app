@@ -5,6 +5,7 @@ import { endpoints } from "../api/api-detail";
 import Swal from "sweetalert2";
 import { Container } from "react-bootstrap";
 import Accordian from "./Accordian";
+import SkeletonDetails from "./SkeletonDetails";
 
 const Details = () => {
   const { id } = useParams();
@@ -33,10 +34,10 @@ const Details = () => {
   };
   useEffect(() => {
     getDetails();
-  }, []);
+  }, [id]);
 
   if (!resDetail) {
-    return <div>Loading...</div>;
+    return <SkeletonDetails/>;
   }
 
   return (

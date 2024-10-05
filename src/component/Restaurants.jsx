@@ -5,6 +5,7 @@ import axiosinstance from "../api/axiosinstance";
 import { endpoints } from "../api/api-detail";
 import Swal from "sweetalert2";
 import { Card, Col, Container, Row } from "react-bootstrap";
+import ResSkeleton from "./ResSkeleton";
 
 const Restaurants = () => {
   const api = endpoints.dishes;
@@ -36,18 +37,21 @@ const Restaurants = () => {
   };
 
   if (!restaurants) {
-    return <h1>Loading...</h1>; // Show loading message when data is not loaded yet.  // Show error message when data loading fails.  // Show data when data is loaded successfully.  // Add error handling for other possible errors.  // Implement pagination or infinite scrolling to load more data when user scrolls down.  // Implement search functionality to filter restaurants based on name or cuisine.  // Implement sorting functionality to sort restaurants based on name or rating.  // Implement rating functionality to give users a rating for a restaurant.  // Implement favorite functionality to save restaurants to a user's favorite list.  // Implement user authentication to only allow authenticated users to save restaurants to their favorite list.  // Implement user authentication to only allow authenticated users to give ratings and favorite restaurants.  // Implement user authentication to only allow authenticated users to view the restaurant details.  // Implement user authentication to only allow authenticated users to order food from the restaurant
+    return <ResSkeleton/>; // Show loading message when data is not loaded yet.  // Show error message when data loading fails.  // Show data when data is loaded successfully.  // Add error handling for other possible errors.  // Implement pagination or infinite scrolling to load more data when user scrolls down.  // Implement search functionality to filter restaurants based on name or cuisine.  // Implement sorting functionality to sort restaurants based on name or rating.  // Implement rating functionality to give users a rating for a restaurant.  // Implement favorite functionality to save restaurants to a user's favorite list.  // Implement user authentication to only allow authenticated users to save restaurants to their favorite list.  // Implement user authentication to only allow authenticated users to give ratings and favorite restaurants.  // Implement user authentication to only allow authenticated users to view the restaurant details.  // Implement user authentication to only allow authenticated users to order food from the restaurant
   }
 
   return (
     <div className="restaurant-page">
       <Carousal />
       {category != "toprated" && (
-        <Container className="text-center">
-          <Link to="/content/restaurants/toprated">
-            <button>Toprated</button>
-          </Link>
-        </Container>
+        <Container className="text-center my-4">
+        <Link to="/content/restaurants/toprated">
+          <button className="btn btn-primary btn-lg rounded-pill px-4 shadow-sm">
+            Toprated
+          </button>
+        </Link>
+      </Container>
+      
       )}
 
       <div>

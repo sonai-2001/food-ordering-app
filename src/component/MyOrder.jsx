@@ -16,7 +16,7 @@ const MyOrder = () => {
       console.log(response.data);
       const filtered = response.data.filter((order) => {
             
-        return order.token.trim() === token.trim();
+        return order.token === token;
       });
       
       

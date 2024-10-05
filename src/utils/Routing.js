@@ -10,6 +10,8 @@ import Cart from '../component/Cart'
 import Payment from '../component/Payment'
 import MyOrder from '../component/MyOrder'
 import AccountPage from '../component/AccountPage'
+import Error from '../component/Error'
+import ProtectedRoute from './ProtectedRoute'
 
 
 const Content=()=>{
@@ -35,10 +37,28 @@ const Routing = () => {
            
            <Route path="restaurants/:category" element={<Restaurants/>}  / >
            <Route path="restaurants/:category/:id" element={<Details/>}  / >
-           <Route path="cart" element={<Cart/>}  / >
-           <Route path="payment" element={<Payment/>} />
-           <Route path="order" element={<MyOrder/>} />
-           <Route path="account" element={<AccountPage/>} />
+           <Route path="cart" element={
+            <ProtectedRoute>
+            <Cart/>
+            </ProtectedRoute>
+            }  / >
+           <Route path="payment" element={
+            <ProtectedRoute>
+            <Payment/>
+            </ProtectedRoute>
+            } />
+           <Route path="order" element=
+           {
+            <ProtectedRoute>
+            <MyOrder/>
+            </ProtectedRoute>
+            } />
+           <Route path="account" element={
+            <ProtectedRoute>
+            <AccountPage/>
+            </ProtectedRoute>
+            } />
+           <Route path='error' element={<Error/>} />
 
   </Route>
 

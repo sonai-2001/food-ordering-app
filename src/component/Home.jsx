@@ -13,7 +13,7 @@ const Home = () => {
               <p className="landing-text">
                 Delicious meals delivered right to your doorstep. Order now and experience the best in food delivery.
               </p>
-              <Link to="/content/restaurants"><Button variant="primary" className="explore-btn">
+              <Link to="/content/restaurants/toprated"><Button variant="primary" className="explore-btn">
                 Explore Menu
               </Button>
               </Link>
