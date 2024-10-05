@@ -1,13 +1,13 @@
 {
   "users": [
     {
-      "id": "a1b6",
       "fullName": "Apurba Bhadra",
       "email": "apurba@gmail.com",
-      "password": "apurba",
-      "mobile": "09330548045",
+      "mobile": "9330548045",
       "address": "baghaJatin,d-77-b, east rajapur, near survey park police station",
-      "token": "f7cabaa5-f82e-4b4c-8738-a1d2bbab30dd"
+      "token": "f7cabaa5-f82e-4b4c-8738-a1d2bbab30dd",
+      "password": "apurba",
+      "id": "a1b6"
     },
     {
       "id": "c933",
@@ -411,34 +411,16 @@
       "avgRating": 4.2
     }
   ],
-  "orders": [],
-  "cart": [
+  "orders": [
     {
-      "id": "6e88",
+      "id": "8513",
       "productId": "146117738",
       "name": "Cheese Volcano Peppy Paneer",
       "price": 31900,
       "token": "f7cabaa5-f82e-4b4c-8738-a1d2bbab30dd",
       "quantity": 1,
       "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/4/3ab84285-8164-4447-b534-f371913491c6_f91a0f02-a155-4a2a-8567-ae9d56ec5b2b.jpg"
-    },
-    {
-      "id": "68ba",
-      "productId": "146117742",
-      "name": "Cheese Volcano Farmhouse",
-      "price": 31900,
-      "token": "f7cabaa5-f82e-4b4c-8738-a1d2bbab30dd",
-      "quantity": 1,
-      "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg"
-    },
-    {
-      "id": "ab25",
-      "productId": "113676484",
-      "name": "Special Party for 4 (Veg) @Rs. 180 off",
-      "price": 95900,
-      "token": "f7cabaa5-f82e-4b4c-8738-a1d2bbab30dd",
-      "quantity": 1,
-      "imageId": "4dfd02271e979bdcbed7737473d930c5"
     }
-  ]
+  ],
+  "cart": []
 }
