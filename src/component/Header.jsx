@@ -23,14 +23,29 @@ const Header = () => {
   const[search,setSearch]=useState("")
   const [results,setResults]=useState([])
   useEffect(() => {
-    const data =
-      cartLength.length > 0
-        ? cartLength.reduce((acc, item) => {
-            return acc + item.quantity;
-          }, 0)
-        : "";
-
-    setLength(data);
+    const getCartLength=async()=>{
+      try {
+          const response=await axiosinstance.get(endpoints.cart)
+          if(response.status==200){
+               const cartItems=response.data.filter((item)=>item.token==window.sessionStorage.getItem('token'))
+               const cartLength=cartItems.reduce((acc, item)=>{
+                return  acc+item.quantity
+               },0)
+               setLength(cartLength)
+          }
+          else{
+            throw new Error()
+          }
+      } catch (error) {
+          Swal.fire({
+            title: "Failed to get cart length",
+            text: "Something went wrong!",
+            icon: "error",
+          })
+      }
+}
+    getCartLength();
+   
   }, [cartLength]);
   useEffect(()=>{
      if(search===""){
@@ -160,7 +175,7 @@ const Header = () => {
                 pill
                 className="position-absolute top-2 start-20 start-md-100 translate-middle"
               >
-                {length}
+                {length==0?"":length}
               </Badge>
             </Nav.Link>
 

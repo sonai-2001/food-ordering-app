@@ -8,7 +8,7 @@ import cartItemsContext from './utils/cartItemsContext';
 
 function App() {
   
-  const [cartLength,updateCartLength]=useState([])
+  const [cartLength,updateCartLength]=useState(true)
   const [cartItems,setItems]=useState([])
   console.log(cartLength)
   return (

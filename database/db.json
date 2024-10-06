@@ -78,7 +78,7 @@
     {
       "id": "12",
       "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
-      "title": "Ice Cream"
+      "title": "iceCream"
     }
   ],
   "dishes": [
@@ -149,6 +149,58 @@
       "category": "toprated",
       "cuisines": [
         "Pizzas"
+      ],
+      "dishTypes": [
+        {
+          "title": "Recommended",
+          "dishes": [
+            {
+              "name": "Create your Melts Box of 2 - Veg",
+              "price": 37900,
+              "imageId": "e6072e97754de0c6c6030103e0fb50d3",
+              "quantity": 1,
+              "id": "135325205",
+              "description": "Serves 2 | Choose any 2 Melts. Double the flavour, double the satisfaction. Cheezy Cheese Veg Melts :  (296 Kcal/100g), Loaded BBQ Veg Melts : (255 Kcal/100g), Makhni Paneer Melts : (265 Kcal/100g)."
+            },
+            {
+              "price": 35900,
+              "description": "Serves 1 | The perfect \"Me Time\" meal. Choose your favourite Melts & Fries accompanied with 1 Pepsi PET. Cheezy Cheese Chicken Melts : (268 Kcal/100g), Loaded BBQ Non-Veg Melts : (330 Kcal/100g), Chicken Tikka Keema Melts : (283 Kcal/100g).",
+              "id": "135325213",
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/14/26d48552-a554-4b30-93d0-7462c255adc2_cc625cc1-b13b-44d4-a394-969d224b4c6c.jpg_compressed",
+              "name": "Melts 3 Course Meal for 1 Non-Veg",
+              "quantity": 1
+            },
+            {
+              "price": 30900,
+              "description": "Choose your favourite Melts & get Exotica Veggie Garlic Bread (2 Pcs) with Mayo Dip. Cheezy Cheese Chicken Melts : (268 Kcal/100g), Loaded BBQ Non-Veg Melts : (330 Kcal/100g), Chicken Tikka Keema Melts : (283 Kcal/100g).  Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+              "id": "147078338",
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/18/2b0e6419-c316-43b5-8f36-fd47074399eb_ffa8760b-eb38-4a21-b547-36a3c39692b6.jpg",
+              "name": "Melts Meal for 1 with Exotica Veggie Garlic Bread 2Pcs & 1 Dip-Non Veg",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "title": "Non Veg Pizza",
+          "dishes": [
+            {
+              "name": "Chicken Supreme",
+              "price": 40900,
+              "imageId": "dlvdmsn1uotbdn4vzvap",
+              "quantity": 1,
+              "id": "91595443",
+              "description": "Serves 1 | Loaded with delicious chicken tikka, flavourful herbed chicken, spicy schezwan chicken meatball with flavourful pan sauce and 100% mozzarella cheese. (PAN Per/Med-273 Kcal/100g | TnC-284 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products."
+            },
+            {
+              "price": 40900,
+              "description": "Serves 1 | Spicy schezwan chicken meatball, flavourful herbed chicken, juicy chicken sausage, green capsicum & onion, spicy red paprika with classic pan sauce and 100% mozzarella cheese (PAN Per/Med-262 Kcal/100g | TnC-277 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+              "id": "91595438",
+              "imageId": "quxirmjttzksp7xlhysc",
+              "name": "Triple Chicken Feast",
+              "quantity": 1
+            }
+          ]
+        }
       ]
     },
     {
@@ -162,6 +214,50 @@
         "Burgers",
         "Fast Food",
         "Rolls & Wraps"
+      ],
+      "dishTypes": [
+        {
+          "title": "Recommended",
+          "dishes": [
+            {
+              "name": "Pujo Strips and Popcorn Value Bucket",
+              "price": 23900,
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/17/0b34eaf7-d745-4b60-b163-1b9169ac3e2f_c4b4f767-9c59-4fc4-9629-4c624e8142b8.jpg",
+              "quantity": 1,
+              "id": "150850964",
+              "description": "Deal Savings of 32% on 4 Pc Peri Peri Boneless Strips and a Regular Popcorn [Serves 1]"
+            },
+            {
+              "price": 34900,
+              "description": "Super Savings of 33% on 3 Pc Hot & Crispy and 3 Pc Peri Peri Boneless Strips [Serves 2-3]",
+              "id": "150850963",
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/17/1dc69c0b-bca7-40c3-9608-cc9d611873ad_3732d54d-a7e2-4d62-b95c-68bef0bb157d.jpg",
+              "name": "Pujo 6 Pc Festive Deal Bucket",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "title": "PUJO SPECIAL BUCKETS (UP TO 41% OFF)",
+          "dishes": [
+            {
+              "description": "Deal Savings of 32% on 4 Pc Peri Peri Boneless Strips and a Regular Popcorn [Serves 1]",
+              "id": "150850964",
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/17/0b34eaf7-d745-4b60-b163-1b9169ac3e2f_c4b4f767-9c59-4fc4-9629-4c624e8142b8.jpg",
+              "name": "Pujo Strips and Popcorn Value Bucket",
+              "price": 23900,
+              "quantity": 1
+            },
+            {
+              "description": "Super Savings of 33% on 3 Pc Hot & Crispy and 3 Pc Peri Peri Boneless Strips [Serves 2-3]",
+              "id": "150850963",
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/17/1dc69c0b-bca7-40c3-9608-cc9d611873ad_3732d54d-a7e2-4d62-b95c-68bef0bb157d.jpg",
+              "name": "Pujo 6 Pc Festive Deal Bucket",
+              "price": 34900,
+              "quantity": 1
+            }
+          ]
+        }
       ]
     },
     {
@@ -173,6 +269,50 @@
       "category": "toprated",
       "cuisines": [
         "Desserts"
+      ],
+      "dishTypes": [
+        {
+          "title": "Chocolate Mini Waffle Combo Pack",
+          "dishes": [
+            {
+              "name": "Mini Waffle Box of 4 - Chocolate",
+              "price": 33452,
+              "imageId": "hs4fcgudajhidwcn3xpy",
+              "quantity": 1,
+              "id": "142169098",
+              "description": "Can’t Pick One? Try A Carefully Curated Assortment of our Bestselling Chocolate Favorites. Includes Naked Nutella, Belgian Chocolate (Milk), Chocolate Overload (Dark) And Dark & White Fantasy Mini Waffles In An All-In-One Combo Pack."
+            },
+            {
+              "price": 31900,
+              "description": "Centre loaded with Molten Cheese & topped with Onion, Capsicum, Tomato & Grilled Mushroom\n*Contains non-edible container under the Pizza",
+              "id": "146117742",
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg",
+              "name": "Cheese Volcano Farmhouse",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "title": "Waffle Cakes",
+          "dishes": [
+            {
+              "description": "Signature dark chocolate double layer waffle cake layered inside and out with creamy White, Milk and Dark melted Belgian Chocolate. Triple the chocolate, triple the fun! (Sorry! Our special waffle cakes do not allow for any customization. We do not provide candles or cutlery with this order)",
+              "id": "140997607",
+              "imageId": "g7v2sn7eezaricdwqcfz",
+              "name": "Death by Chocolate Waffle Cake (Double Layer)",
+              "price": 58052,
+              "quantity": 1
+            },
+            {
+              "description": "The Best Of Two Worlds In A Double Layer Cake - A Waffle And A Brownie. With Deliciously Rich Melted Chocolate and Almonds. Your Doorway To Heaven! (Sorry! Our special waffle cakes do not allow for any customization. We do not provide candles or cutlery with this order)",
+              "id": "140997617",
+              "imageId": "ca123c7d807dc099ca8673d9fbdcd025",
+              "name": "Almond Brownie Waffle Cake (Double Layer)",
+              "price": 60050,
+              "quantity": 1
+            }
+          ]
+        }
       ]
     },
     {
@@ -235,7 +375,51 @@
         "Mughlai",
         "Tandoor"
       ],
-      "avgRating": 4.5
+      "avgRating": 4.5,
+      "dishTypes": [
+        {
+          "title": "Combo",
+          "dishes": [
+            {
+              "name": "Chicken Tikka Butter Masala Combo",
+              "price": 29900,
+              "imageId": "6f36c65f2319e5c05b97825a3e1ba25a",
+              "quantity": 1,
+              "id": "126245297",
+              "description": "Chicken tikka masala (3 pieces) served with choice of breads or rice [halal]"
+            },
+            {
+              "price": 29500,
+              "description": "Chicken tikka masala (3 pieces) served with choice of breads or rice [halal]",
+              "id": "114280054",
+              "imageId": "6f36c65f2319e5c05b97825a3e1ba25a",
+              "name": "Original Delhi Butter Chicken Combo",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "title": "Main Course",
+          "dishes": [
+            {
+              "description": "Kolkata chicken bharta is a flavorful bengali chicken dish made by shredding tender chicken pieces and cooking them with rich spices, onions and richness of coconut [hala]",
+              "id": "110284685",
+              "imageId": "ed159a647692dcf721f43c02923a3a7a",
+              "name": "Kolkata Chicken Bharta (Chef's Special)",
+              "price": 26000,
+              "quantity": 1
+            },
+            {
+              "description": "Tender and succulent chicken pieces marinated in a silky smooth yogurt-based marinade, then cooked in a rich and creamy butter masala sauce. [halal]",
+              "id": "110284955",
+              "imageId": "4812a4c9fc9f9bc2b3a5857f3c652ff0",
+              "name": "Reshmi Chicken Butter Masala",
+              "price": 31000,
+              "quantity": 1
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "10",
@@ -248,7 +432,51 @@
         "North Indian",
         "Beverages"
       ],
-      "avgRating": 3.5
+      "avgRating": 3.5,
+      "dishTypes": [
+        {
+          "title": "Recommended",
+          "dishes": [
+            {
+              "name": "Chicken Biryani + Chicken Chaap + Salad",
+              "price": 29000,
+              "imageId": "kyu6vbxwwgek8mmc86oc",
+              "quantity": 1,
+              "id": "42283723",
+              "description": "Medium Spicy | Serves 1 | Perfect combo of chicken dum biryani [750ml container] & chicken chaap [1pcs] served along with salad"
+            },
+            {
+              "price": 39000,
+              "description": "Serves 1 | Special mutton biryani [1000ml container] + choice of beverage 250ml + salad",
+              "id": "104226648",
+              "imageId": "qrbhqcrdbozg83r1uwfo",
+              "name": "Special Mutton Biryani + Choice Of Beverage 250ml + Salad Combo",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "title": "Biryani",
+          "dishes": [
+            {
+              "description": "Tasty biryani 😊",
+              "id": "144230422",
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/26/0b9b49fb-a701-4984-b45d-f21bb412e87f_b60666ff-42bb-47e4-98b0-7aa9ed2aaf80.jpg",
+              "name": "Egg Chicken Biryani (750 Ml Container)",
+              "price": 18000,
+              "quantity": 1
+            },
+            {
+              "description": "Tender and succulent chicken pieces with long grained rice.",
+              "id": "144230299",
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/26/0b9b49fb-a701-4984-b45d-f21bb412e87f_b60666ff-42bb-47e4-98b0-7aa9ed2aaf80.jpg",
+              "name": "Chicken Biryani ( 750 Ml Container)",
+              "price": 16500,
+              "quantity": 1
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "11",
@@ -339,6 +567,50 @@
         "Italian",
         "Pastas",
         "Desserts"
+      ],
+      "dishTypes": [
+        {
+          "title": "Recommended",
+          "dishes": [
+            {
+              "name": "Cheese Volcano Peppy Paneer",
+              "price": 31900,
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/4/3ab84285-8164-4447-b534-f371913491c6_f91a0f02-a155-4a2a-8567-ae9d56ec5b2b.jpg",
+              "quantity": 1,
+              "id": "146117738",
+              "description": "Centre loaded with Molten Cheese & topped with peppy Paneer, Capsicum & Red Paprika\n*Contains non-edible container under the Pizza"
+            },
+            {
+              "price": 31900,
+              "description": "Centre loaded with Molten Cheese & topped with Onion, Capsicum, Tomato & Grilled Mushroom\n*Contains non-edible container under the Pizza",
+              "id": "146117742",
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg",
+              "name": "Cheese Volcano Farmhouse",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "title": "Party Combo",
+          "dishes": [
+            {
+              "description": "Medium Peppy Paneer + Medium Farmhouse + Garlic Bread + 2 Pepsi",
+              "id": "113676484",
+              "imageId": "4dfd02271e979bdcbed7737473d930c5",
+              "name": "Special Party for 4 (Veg) @Rs. 180 off",
+              "price": 95900,
+              "quantity": 1
+            },
+            {
+              "description": "Meal for 4: Regular Veg Extravaganza + Regular Indi Tandoori Paneer + Regular Farmhouse + Regular Veggie Paradise",
+              "id": "119164270",
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/31/99380be1-e010-42b9-ac5f-18eca2c4df13_8817bc9d-8a29-4e7e-ab1f-2be79a8a3441.jpg",
+              "name": "Pizza Party for 4 (Veg) @Rs. 180 Off",
+              "price": 99900,
+              "quantity": 1
+            }
+          ]
+        }
       ]
     },
     {
@@ -350,6 +622,58 @@
       "category": "Pizza",
       "cuisines": [
         "Pizzas"
+      ],
+      "dishTypes": [
+        {
+          "title": "Recommended",
+          "dishes": [
+            {
+              "name": "Create your Melts Box of 2 - Veg",
+              "price": 37900,
+              "imageId": "e6072e97754de0c6c6030103e0fb50d3",
+              "quantity": 1,
+              "id": "135325205",
+              "description": "Serves 2 | Choose any 2 Melts. Double the flavour, double the satisfaction. Cheezy Cheese Veg Melts :  (296 Kcal/100g), Loaded BBQ Veg Melts : (255 Kcal/100g), Makhni Paneer Melts : (265 Kcal/100g)."
+            },
+            {
+              "price": 35900,
+              "description": "Serves 1 | The perfect \"Me Time\" meal. Choose your favourite Melts & Fries accompanied with 1 Pepsi PET. Cheezy Cheese Chicken Melts : (268 Kcal/100g), Loaded BBQ Non-Veg Melts : (330 Kcal/100g), Chicken Tikka Keema Melts : (283 Kcal/100g).",
+              "id": "135325213",
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/14/26d48552-a554-4b30-93d0-7462c255adc2_cc625cc1-b13b-44d4-a394-969d224b4c6c.jpg_compressed",
+              "name": "Melts 3 Course Meal for 1 Non-Veg",
+              "quantity": 1
+            },
+            {
+              "price": 30900,
+              "description": "Choose your favourite Melts & get Exotica Veggie Garlic Bread (2 Pcs) with Mayo Dip. Cheezy Cheese Chicken Melts : (268 Kcal/100g), Loaded BBQ Non-Veg Melts : (330 Kcal/100g), Chicken Tikka Keema Melts : (283 Kcal/100g).  Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+              "id": "147078338",
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/18/2b0e6419-c316-43b5-8f36-fd47074399eb_ffa8760b-eb38-4a21-b547-36a3c39692b6.jpg",
+              "name": "Melts Meal for 1 with Exotica Veggie Garlic Bread 2Pcs & 1 Dip-Non Veg",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "title": "Non Veg Pizza",
+          "dishes": [
+            {
+              "name": "Chicken Supreme",
+              "price": 40900,
+              "imageId": "dlvdmsn1uotbdn4vzvap",
+              "quantity": 1,
+              "id": "91595443",
+              "description": "Serves 1 | Loaded with delicious chicken tikka, flavourful herbed chicken, spicy schezwan chicken meatball with flavourful pan sauce and 100% mozzarella cheese. (PAN Per/Med-273 Kcal/100g | TnC-284 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products."
+            },
+            {
+              "price": 40900,
+              "description": "Serves 1 | Spicy schezwan chicken meatball, flavourful herbed chicken, juicy chicken sausage, green capsicum & onion, spicy red paprika with classic pan sauce and 100% mozzarella cheese (PAN Per/Med-262 Kcal/100g | TnC-277 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+              "id": "91595438",
+              "imageId": "quxirmjttzksp7xlhysc",
+              "name": "Triple Chicken Feast",
+              "quantity": 1
+            }
+          ]
+        }
       ]
     },
     {
@@ -409,6 +733,118 @@
         "American"
       ],
       "avgRating": 4.2
+    },
+    {
+      "id": "23",
+      "name": "Baskin Robbins - Ice Cream Desserts",
+      "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/85ccae4e3576f9330af102c46ca85395",
+      "avgRating": 4.6,
+      "costForTwo": "₹400 for two",
+      "category": "iceCream",
+      "cuisines": [
+        "ice cream"
+      ],
+      "dishTypes": [
+        {
+          "title": "Recommended",
+          "dishes": [
+            {
+              "name": "Mississippi Mud Ice Cream",
+              "price": 10400,
+              "imageId": "a77bed0a24583af1e91932f40fdf1fc2",
+              "quantity": 1,
+              "id": "115837488",
+              "description": "Delectable chocolate fudge and ice cream, married by a fudge ribbon and sprinkled with brownie pieces. Weve tripled up on chocolate with this Mississippi Mud flavour! Chocolate overload anyone? --Small Scoop (118ml)-180.1 kcal / Regular Scoop (180ml) 274.7 kcal / Double Scoop(236ml) 360.14 kcal.Factory sealed 450ml-686.7 kcal / Hand scooped 500ml-763 kcal / Homepacks 700ml-1068.2 kcal / Hand scooped 1 ltr-1526 kcal\nAllergen - Contains Milk and wheat. May Contains Nut and Soy."
+            },
+            {
+              "price": 10400,
+              "description": "Rich chocolate based ice cream adorned with chocolate pieces and cashew nut crispies. If it?s Bavarian Chocolate flavour then it has got to be sinful and intensely indulgent. Throw in a bit of crunch and you?ve got a truly divine chocolate ice cream treat. -202 kcal -1712 kcal Allergen - Contains Milk , Nut and Soy. May Contains Cereal (wheat).).",
+              "id": "61661814",
+              "imageId": "29359cf5348a199580a7aa2a3381e3ca",
+              "name": "Bavarian Chocolate Ice Cream",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "title": "Chocolate Ice Creams",
+          "dishes": [
+            {
+              "description": "Heavenly medley of vanilla&chocolate, embraced by caramel ribbon. This vanilla &chocolate combo is our dream team! A thick, deep caramel ribbon intertwines the two flavours together in perfection. --Small Scoop (118ml)-171.1 kcal / Regular Scoop (180ml) 261 kcal / Double Scoop(236ml) 342.2 kcal.Factory sealed 450ml-652.5 kcal / Hand scooped 500ml-725 kcal / Homepacks 700ml-1015 kcal / Hand scooped 1 ltr-1450 kcal\nAllergen - Contains Milk. May Contains Cereal (wheat),Nut and Soy.",
+              "id": "61661794",
+              "imageId": "ab33bf3fe175b5b3db95f7571ae4a57b",
+              "name": "Gold Medal Ribbon Ice cream",
+              "price": 10400,
+              "quantity": 1
+            },
+            {
+              "description": "Tempting chocolate ice cream with a distinct hint of cocoa. The mother of every chocolate ice cream creation of ours. --Small Scoop (118ml)-158.5 kcal / Regular Scoop (180ml) 241.7 kcal / Double Scoop(236ml) 316.95 kcal.Factory sealed 450ml-604.4 kcal / Hand scooped 500ml-671.5 kcal / Homepacks 700ml-940.1 kcal / Hand scooped 1 ltr-1343 kcal\nAllergen - Contains Milk. May Contains Cereal (wheat),Nut and Soy.",
+              "id": "61661766",
+              "imageId": "9bbe1d395403bd4beddf1fd36007a705",
+              "name": "Dutch Chocolate Ice cream",
+              "price": 99900,
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "GetAWay-Ice Creams & Desserts",
+      "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/4/23/74708fb7-c23b-461f-af80-832feaa53ae5_758ad265-6e6c-4f50-a856-781a63d07b3a.jpg",
+      "avgRating": 4.5,
+      "costForTwo": "₹250 for two",
+      "category": "iceCream",
+      "cuisines": [
+        "Desserts",
+        "Ice Cream",
+        "Healthy Food"
+      ],
+      "dishTypes": [
+        {
+          "title": "Recommended",
+          "dishes": [
+            {
+              "name": "Mocha Almond 125Ml",
+              "price": 11441,
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/4d3a82a4-3c19-4c3f-b2ef-f853aafb4d20_16b19a6a-3682-4658-aaaa-fdbfc0756163.jpg",
+              "quantity": 1,
+              "id": "139173920",
+              "description": "With 75% Less Sugar & 100 kcal only, this is made with real coffee, crunchy almonds and creamy goodness."
+            },
+            {
+              "price": 11441,
+              "description": "With 75% Less Sugar, this tub of 103 kcal only is full of crushed chocolate, bits of cocoa and a soft creamy indulgence of chocolate ice cream. Loved by Malaika",
+              "id": "139173916",
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/ecd15bba-1509-4b0f-9d78-c3f9834450de_0ce7df19-bf39-43e2-89db-65bed0ee499e.jpg",
+              "name": "Chocolate Overload 125Ml",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "title": "Ice Cream Sandwiches & Cassata",
+          "dishes": [
+            {
+              "description": "Serves 1 | With Zero Added Sugar, each sandwich has 92 kcal. It is made with chocolate ice cream and bits of brownie sandwiched between delectable chocolate cookies.",
+              "id": "132132053",
+              "imageId": "058273754362ff48fbb714903b432133",
+              "name": "Sandwich Chocolate Brownie Ice Cream [2 Pieces]",
+              "price": 16949,
+              "quantity": 1
+            },
+            {
+              "description": "Serves 1 | With Zero Added Sugar, each sandwhich has 92 kcal. It has the tartness of our low-cal blueberry ice cream, nicely nested between two sumtuously soft chocolate cookies.",
+              "id": "61661766",
+              "imageId": "b1a20f144399af0c6c98d54206f7aeb1",
+              "name": "Sandwich Blueberry Ice Cream [2 Pieces]",
+              "price": 16949,
+              "quantity": 1
+            }
+          ]
+        }
+      ]
     }
   ],
   "orders": [
@@ -431,5 +867,42 @@
       "imageId": "4dfd02271e979bdcbed7737473d930c5"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "7efd",
+      "productId": "146117738",
+      "name": "Cheese Volcano Peppy Paneer",
+      "price": 31900,
+      "token": "f62b91c4-8b46-40b7-9828-a7ec1c02376e",
+      "quantity": 3,
+      "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/4/3ab84285-8164-4447-b534-f371913491c6_f91a0f02-a155-4a2a-8567-ae9d56ec5b2b.jpg"
+    },
+    {
+      "id": "a0fd",
+      "productId": "146117742",
+      "name": "Cheese Volcano Farmhouse",
+      "price": 31900,
+      "token": "f62b91c4-8b46-40b7-9828-a7ec1c02376e",
+      "quantity": 1,
+      "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg"
+    },
+    {
+      "id": "a5eb",
+      "productId": "91595443",
+      "name": "Chicken Supreme",
+      "price": 40900,
+      "token": "f62b91c4-8b46-40b7-9828-a7ec1c02376e",
+      "quantity": 1,
+      "imageId": "dlvdmsn1uotbdn4vzvap"
+    },
+    {
+      "id": "5160",
+      "productId": "135325205",
+      "name": "Create your Melts Box of 2 - Veg",
+      "price": 37900,
+      "token": "f7cabaa5-f82e-4b4c-8738-a1d2bbab30dd",
+      "quantity": 1,
+      "imageId": "e6072e97754de0c6c6030103e0fb50d3"
+    }
+  ]
 }

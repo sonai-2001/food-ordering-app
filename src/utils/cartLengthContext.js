@@ -1,6 +1,6 @@
 import { createContext } from "react";
 
 const cartLengthContext=createContext({
-    cartLength:[]
+    cartLength:true
 })
 export  default cartLengthContext;

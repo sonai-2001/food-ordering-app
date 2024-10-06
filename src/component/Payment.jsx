@@ -11,7 +11,7 @@ import cartLengthContext from "../utils/cartLengthContext";
 
 const Payment = () => {
   const { cartItems,setItems } = useContext(cartItemsContext)
-  const{updateCartLength}=useContext(cartLengthContext)
+  const{updateCartLength,cartLength}=useContext(cartLengthContext)
   const [itemToOrder, setItemToOrder] = useState(cartItems);
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
@@ -43,7 +43,7 @@ const Payment = () => {
       }
 
       setLoading(false); // Stop loading
-      updateCartLength([])
+      updateCartLength(!cartLength)
       setItems([]) // Clear cart items after successful order placement
 
 

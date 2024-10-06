@@ -47,7 +47,7 @@ const Cart = () => {
           return item.id !== itemId;
         });
         setCartItems(filteredItems);
-        updateCartLength(filteredItems)
+        updateCartLength(!cartLength)
       } else {
         throw new Error()
       }
@@ -77,7 +77,7 @@ const Cart = () => {
       }
      
       setCartItems([]) // Stop loading
-      updateCartLength([])
+      updateCartLength(!cartLength)
       // Step 3: Show success alert after loading has stopped
       Swal.fire({
         title: "cart deleted successfully",
@@ -143,7 +143,7 @@ const Cart = () => {
     // Call updateCartItem (not upDateCartItem)
     updateCartItem(quantityChangeItem);
     setCartItems(updatedItems);
-    updateCartLength(updatedItems)
+    updateCartLength(!cartLength)
   };
 
   // Calculate total price

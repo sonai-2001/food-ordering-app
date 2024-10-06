@@ -55,7 +55,7 @@ const SingleItem = ({ dish }) => {
       const response = await axiosinstance.post(api, obj);
       console.log(response);
       if (response.status === 201) {
-        updateCartLength([...cartLength,obj])
+        updateCartLength(!cartLength)
         Swal.fire({
           title: "Success",
           text: "Item added to cart",
