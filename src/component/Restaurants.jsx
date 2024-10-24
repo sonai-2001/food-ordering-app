@@ -46,7 +46,7 @@ const Restaurants = () => {
       {category != "toprated" && (
         <Container className="text-center my-4">
         <Link to="/content/restaurants/toprated">
-          <button className="btn btn-primary btn-lg rounded-pill px-4 shadow-sm">
+          <button className="btn btn-warning btn-lg rounded-pill px-4 shadow-sm">
             Toprated
           </button>
         </Link>

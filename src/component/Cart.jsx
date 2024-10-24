@@ -167,7 +167,7 @@ const Cart = () => {
             <h2>Your Cart</h2>
             <div className="cart-actions">
               <Link to="/content/restaurants/toprated" className="me-2">
-                <Button variant="primary" size="sm" className="action-button">
+                <Button variant="warning" size="sm" className="action-button">
                   Add Item
                 </Button>
               </Link>
@@ -237,7 +237,7 @@ const Cart = () => {
             <Button
               disabled={cartItems.length === 0}
               onClick={handleBuyNow}
-              variant="primary"
+              variant="warning"
               size="lg"
               className="mt-3 w-100"
             >

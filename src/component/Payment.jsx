@@ -113,7 +113,7 @@ const Payment = () => {
             </div>
             <Button
               onClick={handleProceedToPayment}
-              variant="primary"
+              variant="warning"
               size="lg"
               className="mt-4 w-100 proceed-btn"
               disabled={loading}

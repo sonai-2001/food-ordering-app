@@ -4,30 +4,26 @@ import { Button, Form, Row, Col, Container, Spinner } from "react-bootstrap";
 import axiosinstance from "../api/axiosinstance";
 import { endpoints } from "../api/api-detail";
 import Swal from "sweetalert2";
-import Loader from "./Loader"
+import Loader from "./Loader";
 
 const AccountPage = () => {
   const { register, handleSubmit, setValue, reset } = useForm();
-  const [isEditable, setIsEditable] = useState(false); // State to toggle edit mode
-  const [show, setShow] = useState(false); // State to manage data fetch/loading
+  const [isEditable, setIsEditable] = useState(false);
+  const [show, setShow] = useState(false);
   const [filteredUser, setFilteredUser] = useState({});
-  const [loading, setLoading] = useState(false); // Loading state for API calls
-  const [isPasswordEditable, setIsPasswordEditable] = useState(false); // For password section
+  const [loading, setLoading] = useState(false);
+  const [isPasswordEditable, setIsPasswordEditable] = useState(false);
 
-  // Enable edit mode
   const enableEdit = (e) => {
-    e.preventDefault(); // Prevent any default behavior (like form submission)
-    setIsEditable(true); // Enable editing mode
-    console.log("Edit mode enabled");
+    e.preventDefault();
+    setIsEditable(true);
   };
 
-  // Enable password change mode
   const enablePasswordEdit = (e) => {
     e.preventDefault();
     setIsPasswordEditable(true);
   };
 
-  // Fetch user data when component mounts
   useEffect(() => {
     const getDetail = async () => {
       try {
@@ -59,10 +55,8 @@ const AccountPage = () => {
     getDetail();
   }, [setValue]);
 
-  // Handle form submission for general details
   const onSubmit = async (data) => {
-    console.log("Updated Data:", data);
-    setLoading(true); // Show loader
+    setLoading(true);
     try {
       const obj = {
         fullName: data.name,
@@ -73,7 +67,6 @@ const AccountPage = () => {
         password: filteredUser.password,
         id: filteredUser.id,
       };
-      // Make API call to update user data
       const response = await axiosinstance.put(
         endpoints.users + "/" + filteredUser.id,
         obj
@@ -81,25 +74,21 @@ const AccountPage = () => {
       if (response.status !== 200) {
         throw new Error();
       }
-      setIsEditable(false); // Disable edit mode after saving
+      setIsEditable(false);
       Swal.fire("Success", "Details updated successfully", "success");
     } catch (error) {
       Swal.fire("Error", "Failed to update details", "error");
     } finally {
-      setLoading(false); // Hide loader
+      setLoading(false);
     }
   };
 
-  // Handle password change submission
-  // Handle password change submission
-const onPasswordSubmit = async (data) => {
-    console.log(data);
-    setLoading(true); // Show loader for password change
+  const onPasswordSubmit = async (data) => {
+    setLoading(true);
     try {
       if (data.newPassword !== data.confirmPassword) {
         throw new Error("Passwords do not match");
       }
-      // Make API call to update password
       const obj = { ...filteredUser, password: data.confirmPassword };
       const response = await axiosinstance.put(
         endpoints.users + "/" + filteredUser.id,
@@ -115,11 +104,11 @@ const onPasswordSubmit = async (data) => {
         confirmButtonText: "Okay",
         timer: 2000,
       }).then(() => {
-        reset({ // Reset the form fields after successful change
+        reset({
           newPassword: '',
           confirmPassword: ''
         });
-        setIsPasswordEditable(false); // Disable password edit mode
+        setIsPasswordEditable(false);
       });
     } catch (err) {
       Swal.fire({
@@ -130,52 +119,50 @@ const onPasswordSubmit = async (data) => {
         timer: 2000,
       });
     } finally {
-      setLoading(false); // Hide loader
+      setLoading(false);
     }
   };
-  
 
-  // Handle cancel password edit and reset fields
   const cancelPasswordEdit = () => {
-    reset({ // Reset the form fields after successful change
-        newPassword: '',
-        confirmPassword: ''
-      }); // Reset the password fields when canceling
-    setIsPasswordEditable(false); // Disable password edit mode
+    reset({
+      newPassword: '',
+      confirmPassword: ''
+    });
+    setIsPasswordEditable(false);
   };
 
   if (!show) {
-    return <h1>Loading...</h1>; // Loading message during data fetch
+    return <h1>Loading...</h1>;
   }
 
   return (
-    <Container fluid className=" account-page">
-      
-      {
-        loading && <Loader/>
-      }
-      
+    <Container fluid className="account-page py-4">
+      {loading && <Loader />}
+
       <h2 className="mb-4">My Account</h2>
-      <Form onSubmit={handleSubmit(onSubmit)}>
+
+      <Form onSubmit={handleSubmit(onSubmit)} className="mb-5">
         <Row>
           <Col md={6}>
-            <Form.Group className="mb-3">
+            <Form.Group className="mb-4">
               <Form.Label>Name</Form.Label>
               <Form.Control
                 {...register("name")}
                 type="text"
-                disabled={!isEditable} // Disabled if not in edit mode
+                disabled={!isEditable}
+                className="form-control-lg"
               />
             </Form.Group>
           </Col>
 
           <Col md={6}>
-            <Form.Group className="mb-3">
+            <Form.Group className="mb-4">
               <Form.Label>Email</Form.Label>
               <Form.Control
                 {...register("email")}
                 type="email"
-                disabled={!isEditable} // Disabled if not in edit mode
+                disabled={!isEditable}
+                className="form-control-lg"
               />
             </Form.Group>
           </Col>
@@ -183,62 +170,68 @@ const onPasswordSubmit = async (data) => {
 
         <Row>
           <Col md={6}>
-            <Form.Group className="mb-3">
+            <Form.Group className="mb-4">
               <Form.Label>Phone</Form.Label>
               <Form.Control
                 {...register("phone")}
                 type="text"
-                disabled={!isEditable} // Disabled if not in edit mode
+                disabled={!isEditable}
+                className="form-control-lg"
               />
             </Form.Group>
           </Col>
 
           <Col md={6}>
-            <Form.Group className="mb-3">
+            <Form.Group className="mb-4">
               <Form.Label>Address</Form.Label>
               <Form.Control
                 {...register("address")}
                 type="text"
-                disabled={!isEditable} // Disabled if not in edit mode
+                disabled={!isEditable}
+                className="form-control-lg"
               />
             </Form.Group>
           </Col>
         </Row>
 
-        <div className="d-flex justify-content-between">
+        <div className="d-flex justify-content-end">
           {isEditable ? (
             <>
-              <Button type="submit" variant="success" disabled={loading}>
+              <Button
+                type="submit"
+                variant="success"
+                className="me-2"
+                disabled={loading}
+              >
                 {loading ? <Spinner animation="border" size="sm" /> : "Save"}
               </Button>
               <Button
                 variant="secondary"
                 type="button"
                 onClick={() => setIsEditable(false)}
-                className="ms-2"
               >
                 Cancel
               </Button>
             </>
           ) : (
-            <Button onClick={enableEdit} variant="primary" type="button">
+            <Button onClick={enableEdit} variant="warning" type="button">
               Edit
             </Button>
           )}
         </div>
       </Form>
 
-      {/* Password Change Section */}
-      <h3 className="mt-5">Change Password</h3>
+      <h3 className="mb-4">Change Password</h3>
       <Form onSubmit={handleSubmit(onPasswordSubmit)}>
         <Row>
           <Col md={6}>
-            <Form.Group className="mb-3">
+            <Form.Group className="mb-4">
               <Form.Label>New Password</Form.Label>
               <Form.Control
                 {...register("newPassword")}
                 type="password"
                 disabled={!isPasswordEditable}
+                className="form-control-lg"
               />
             </Form.Group>
           </Col>
@@ -246,21 +239,27 @@ const onPasswordSubmit = async (data) => {
 
         <Row>
           <Col md={6}>
-            <Form.Group className="mb-3">
+            <Form.Group className="mb-4">
               <Form.Label>Confirm New Password</Form.Label>
               <Form.Control
                 {...register("confirmPassword")}
                 type="password"
                 disabled={!isPasswordEditable}
+                className="form-control-lg"
               />
             </Form.Group>
           </Col>
         </Row>
 
-        <div className="d-flex justify-content-between">
+        <div className="d-flex justify-content-end">
           {isPasswordEditable ? (
             <>
-              <Button type="submit" variant="success" disabled={loading}>
+              <Button
+                type="submit"
+                variant="success"
+                className="me-2"
+                disabled={loading}
+              >
                 {loading ? (
                   <Spinner animation="border" size="sm" />
                 ) : (
@@ -271,7 +270,6 @@ const onPasswordSubmit = async (data) => {
                 variant="secondary"
                 type="button"
                 onClick={cancelPasswordEdit}
-                className="ms-2"
               >
                 Cancel
               </Button>

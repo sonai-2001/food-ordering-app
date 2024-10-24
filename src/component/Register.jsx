@@ -104,7 +104,7 @@ catch(err){
   };
 
   return (
-    <div className="register-page">
+    <div className="register-page ">
       {loading && <Loader />} {/* Show the Loader when loading is true */}
       <div className="overlay">
         <Container>

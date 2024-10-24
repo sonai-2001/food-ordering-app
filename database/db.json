@@ -865,6 +865,33 @@
       "token": "f7cabaa5-f82e-4b4c-8738-a1d2bbab30dd",
       "quantity": 1,
       "imageId": "4dfd02271e979bdcbed7737473d930c5"
+    },
+    {
+      "id": "62d7",
+      "productId": "115837488",
+      "name": "Mississippi Mud Ice Cream",
+      "price": 10400,
+      "token": "f7cabaa5-f82e-4b4c-8738-a1d2bbab30dd",
+      "quantity": 3,
+      "imageId": "a77bed0a24583af1e91932f40fdf1fc2"
+    },
+    {
+      "id": "d7de",
+      "productId": "126245297",
+      "name": "Chicken Tikka Butter Masala Combo",
+      "price": 29900,
+      "token": "f7cabaa5-f82e-4b4c-8738-a1d2bbab30dd",
+      "quantity": 1,
+      "imageId": "6f36c65f2319e5c05b97825a3e1ba25a"
+    },
+    {
+      "id": "dbe7",
+      "productId": "42283723",
+      "name": "Chicken Biryani + Chicken Chaap + Salad",
+      "price": 29000,
+      "token": "f7cabaa5-f82e-4b4c-8738-a1d2bbab30dd",
+      "quantity": 1,
+      "imageId": "kyu6vbxwwgek8mmc86oc"
     }
   ],
   "cart": [
@@ -894,15 +921,6 @@
       "token": "f62b91c4-8b46-40b7-9828-a7ec1c02376e",
       "quantity": 1,
       "imageId": "dlvdmsn1uotbdn4vzvap"
-    },
-    {
-      "id": "5160",
-      "productId": "135325205",
-      "name": "Create your Melts Box of 2 - Veg",
-      "price": 37900,
-      "token": "f7cabaa5-f82e-4b4c-8738-a1d2bbab30dd",
-      "quantity": 1,
-      "imageId": "e6072e97754de0c6c6030103e0fb50d3"
     }
   ]
 }

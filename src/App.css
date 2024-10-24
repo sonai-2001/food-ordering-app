@@ -333,7 +333,7 @@
 }
 
 .restaurant-page{
-  height:87vh;
+  height:83vh;
   overflow-y: auto;
 }
 /* .carausal-container{
@@ -438,7 +438,7 @@
 
 
 .detail-page{
-  height: 80vh;
+  height: 78vh;
   overflow-y: auto;
 }
 
@@ -807,7 +807,7 @@
 
 /* order style */
 .my-orders-container {
-  height: 100vh;
+  height: 82vh;
   overflow-y: auto;
   background: linear-gradient(to bottom, #f9fafc, #e9effd);
   padding: 2rem 0;

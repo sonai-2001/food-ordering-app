@@ -31,7 +31,7 @@ const MyOrder = () => {
   }
 
   return (
-    <Container className="my-orders-container mt-4" >
+    <Container fluid className="my-orders-container mt-4" >
       <h2 className="text-center mb-4">My Orders</h2>
       <Row className="justify-content-center">
         {orders.map((order) => (
